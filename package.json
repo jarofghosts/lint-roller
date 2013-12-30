@@ -1,0 +1,22 @@
+{
+  "name": "lint-roller",
+  "version": "0.0.0",
+  "description": "generate a linter",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "lint",
+    "rules",
+    "utility"
+  ],
+  "author": "jesse keane",
+  "license": "MIT",
+  "dependencies": {
+    "falafel": "~0.3.1",
+    "nopt": "~2.1.2",
+    "cssauron-falafel": "~1.2.1",
+    "through2": "~0.2.3"
+  }
+}
